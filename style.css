@@ -111,6 +111,7 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   position: relative;
+  justify-content: space-between;
 }
 
 li {
@@ -120,8 +121,9 @@ li {
 li:hover {
   transform: scale(1.8);
   filter: unset;
-  z-index: 1;
+  z-index: 2;
 }
+
 
 .game-list img {
   width: 90px;
@@ -132,14 +134,9 @@ li:hover {
   width: 120px;
   border-radius: 50%;
   border: 1px solid #443e54;
+  
 }
-.conect-list {
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  gap: 42px;
-}
+
 .conect-list svg {
   width: 60px;
   height: 60px;
