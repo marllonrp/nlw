@@ -112,12 +112,15 @@ ul {
   flex-wrap: wrap;
   position: relative;
 }
+
 li {
-  filter: grayscale(0.6);
+  filter: grayscale(0.85);
 }
+
 li:hover {
-  transform: scale(1.5);
+  transform: scale(1.8);
   filter: unset;
+  z-index: 1;
 }
 
 .game-list img {
@@ -130,17 +133,16 @@ li:hover {
   border-radius: 50%;
   border: 1px solid #443e54;
 }
-.conect-list { 
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    gap: 42px;
+.conect-list {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 42px;
 }
 .conect-list svg {
   width: 60px;
   height: 60px;
- 
 }
 
 /* Animações */
